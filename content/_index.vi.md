@@ -6,7 +6,9 @@ chapter: false
 ---
 
 # Báo cáo thực tập
+
 ### Thông tin sinh viên:
+
 &emsp; **Họ và tên:** Phạm Trường Giang
 
 &emsp; **Số điện thoại:** 0967792922
@@ -25,9 +27,7 @@ chapter: false
 
 &emsp; **Thời gian thực tập:** Từ ngày 3/08/2026 đến ngày 27/9/2026
 
-![Ảnh đại diện của bạn](/images/avatar.jpg)
-
-
+![Ảnh đại diện của bạn](/images/avatar.png)
 
 ### Nội dung báo cáo
 
