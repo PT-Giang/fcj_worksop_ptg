@@ -35,7 +35,7 @@ Triển khai theo từng bước: frontend lên Amplify, backend được Docker
 
 Giải pháp đề xuất triển khai INSstore trên AWS theo kiến trúc rút gọn. Frontend React được build và phân phối qua AWS Amplify Hosting. Backend Spring Boot được đóng gói Docker, lưu image tại Amazon ECR và chạy trên Amazon ECS Fargate; Application Load Balancer cung cấp endpoint ổn định để frontend gọi REST API. Dữ liệu nghiệp vụ được lưu trên Amazon RDS for PostgreSQL, Redis được chuyển sang Amazon ElastiCache và log ứng dụng được tập trung tại Amazon CloudWatch. Kiến trúc này đủ để trình diễn đầy đủ luồng khách hàng và quản trị, đồng thời vẫn có thể mở rộng thêm các dịch vụ AWS khi cần.
 
-![INSStore](/images/2-Proposal/workflow.jpeg)
+![INSStore](/fcj_worksop_ptg/images/2-Proposal/workflow.jpeg)
 
 _Dịch vụ AWS sử dụng_
 
