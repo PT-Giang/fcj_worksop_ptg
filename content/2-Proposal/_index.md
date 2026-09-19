@@ -35,7 +35,7 @@ Deploy in stages: frontend to Amplify, backend containerized and pushed to ECR/E
 
 The proposed solution deploys INSstore on AWS using a streamlined architecture. The React frontend is built and distributed through AWS Amplify Hosting. The Spring Boot backend is packaged as a Docker image, stored in Amazon ECR, and runs on Amazon ECS Fargate. The Application Load Balancer provides a stable endpoint for the frontend to call REST APIs. Business data is stored in Amazon RDS for PostgreSQL, Redis is moved to Amazon ElastiCache, and application logs are centralized in Amazon CloudWatch. This architecture is sufficient to demonstrate the full customer and admin flows while remaining scalable for future AWS services when needed.
 
-![INSStore](/fcj_worksop_ptg/images/2-Proposal/workflow.jpeg)
+![INSStore](/fcj_worksop_ptg/images/2-Proposal/workflow.png)
 
 _AWS services used_
 
